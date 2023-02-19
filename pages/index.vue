@@ -4,7 +4,7 @@
 		<ContentList v-slot="{ list }" :query="query">
 			<div v-for="article of list" :key="article._path" class="sm:rounded-lg bg-zinc-100 dark:bg-zinc-700 p-4">
 				<NuxtLink :to="article._path">
-					<img :src="`/images/${article.image}.png`" class="w-24 hover:saturate-150 shadow-lg rounded-lg inline" :alt="article.image" />
+					<img :src="`/images/${article.image}.png`" class="w-24 hover:saturate-150 shadow-lg rounded-lg inline select-none" :alt="article.image" />
 				</NuxtLink>
 
 				<div class="inline-block pl-4">
