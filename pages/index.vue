@@ -1,5 +1,5 @@
 <template>
-	<h2 class="text-3xl font-bold mb-12 text-center">Latest articles</h2>
+	<h2 class="text-4xl font-extrabold mb-12 pt-4 text-center">Latest articles</h2>
 	<div class="grid lg:grid-cols-2 gap-1 lg:gap-10">
 		<ContentList v-slot="{ list }" :query="query">
 			<div v-for="article of list" :key="article._path" class="sm:rounded-lg bg-zinc-100 dark:bg-zinc-700 p-4">
