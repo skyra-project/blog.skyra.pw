@@ -12,7 +12,7 @@
 				</NuxtLink>
 
 				<div class="inline-block pl-4">
-					<NuxtLink :to="article._path" class="text-xl font-semibold hover:underline underline-offset-2 mb-3">
+					<NuxtLink :to="article._path" class="text-xl font-semibold hover:underline mb-3">
 						{{ article.title }}
 					</NuxtLink>
 					<p class="opacity-80 mb-6">

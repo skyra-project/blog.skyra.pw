@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex bg-opacity-25 rounded-lg p-4 mb-4 text-sm not-prose"
+		class="flex bg-opacity-25 rounded-lg p-4 mb-4 text-sm"
 		:class="{
 			'bg-blue-500': type === 'info',
 			'bg-yellow-500': type === 'warning',
@@ -27,7 +27,7 @@
 				clip-rule="evenodd"
 			></path>
 		</svg>
-		<div>
+		<div class="not-prose">
 			<slot></slot>
 		</div>
 	</div>
