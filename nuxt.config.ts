@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 			link: [
 				// <link rel='apple-touch-icon' sizes='180x180' href='/icons/apple-touch-icon.png' />
 				// <link rel='apple-touch-startup-image' href='/icons/apple-startup.png' />
-				{ rel: 'canonical', href: 'https://blogs.skyra.pw' }
+				{ rel: 'canonical', href: 'https://blog.skyra.pw' }
 				// <link rel='icon' href='/icons/android-chrome-192x192.png' />
 				// <link rel='icon' href='/favicon.ico' />
 				// <link rel='icon' type='image/png' sizes='16x16' href='/icons/favicon-16x16.png' />
@@ -50,7 +50,7 @@ export default defineNuxtConfig({
 				{ name: 'distribution', content: 'Global' },
 				{ name: 'googlebot', content: 'index,follow' },
 				{ name: 'HandheldFriendly', content: 'True' },
-				{ name: 'identifier-URL', content: 'https://blogs.skyra.pw' },
+				{ name: 'identifier-URL', content: 'https://blog.skyra.pw' },
 				{
 					name: 'keywords',
 					content: 'skyra, discord, bot, blog, blogs'
@@ -66,7 +66,7 @@ export default defineNuxtConfig({
 					name: 'robots',
 					content: 'archive,follow,imageindex,index,odp,snippet,translate'
 				},
-				{ name: 'shortlink', content: 'https://blogs.skyra.pw' },
+				{ name: 'shortlink', content: 'https://blog.skyra.pw' },
 				{
 					name: 'subject',
 					content: "Skyra Project's Blog Posts"
@@ -79,9 +79,9 @@ export default defineNuxtConfig({
 				{ name: 'theme-color', content: '#55ACEE' },
 				{ name: 'twitter:card', content: 'summary' },
 				{ name: 'twitter:creator', content: '@kyranet_' },
-				// { name: 'twitter:image', content: 'https://blogs.skyra.pw/icons/opengraph.png' },
+				// { name: 'twitter:image', content: 'https://blog.skyra.pw/icons/opengraph.png' },
 				{ name: 'twitter:site', content: '@kyranet_' },
-				{ name: 'url', content: 'https://blogs.skyra.pw' },
+				{ name: 'url', content: 'https://blog.skyra.pw' },
 				{
 					property: 'og:description',
 					content: "Skyra Project's Blog Posts"
@@ -90,12 +90,12 @@ export default defineNuxtConfig({
 				// { property: 'og:image:alt', content: 'OpenGraphImage' },
 				// { property: 'og:image:height', content: '512' },
 				// { property: 'og:image:width', content: '1024' },
-				// { property: 'og:image', content: 'https://blogs.skyra.pw/icons/opengraph.png' },
+				// { property: 'og:image', content: 'https://blog.skyra.pw/icons/opengraph.png' },
 				{ property: 'og:locale', content: 'en_US' },
 				{ property: 'og:site_name', content: "Skyra Project's Blog Posts" },
 				{ property: 'og:title', content: "Skyra Project's Blog Posts" },
 				{ property: 'og:type', content: 'website' },
-				{ property: 'og:url', content: 'https://blogs.skyra.pw' }
+				{ property: 'og:url', content: 'https://blog.skyra.pw' }
 			]
 		}
 	},
