@@ -1,23 +1,26 @@
 <template>
 	<h2 class="mb-12 pt-4 text-center text-4xl font-extrabold">Latest articles</h2>
 	<div class="mx-4 grid gap-3 md:mx-0 lg:grid-cols-2 lg:gap-10">
-		<ContentList v-slot="{ list }" :query="query">
-			<div v-for="article of list" :key="article._path" class="rounded-lg bg-zinc-100 p-4 shadow-md drop-shadow-md dark:bg-zinc-700">
+		<content-list v-slot="{ list }" :query="query">
+			<nuxt-link
+				v-for="article of list"
+				:to="article._path"
+				:key="article._path"
+				class="rounded-lg bg-zinc-100 p-4 shadow-md drop-shadow-md dark:bg-zinc-700"
+			>
 				<div class="flex">
-					<nuxt-link :to="article._path" >
-						<img
-							:src="`/images/${article.image}.png`"
-							class="inline select-none rounded-lg shadow-lg hover:saturate-150"
-							width="96"
-							height="96"
-							:alt="article.image"
-						/>
-					</nuxt-link>
+					<img
+						:src="`/images/${article.image}.png`"
+						:alt="article.image"
+						class="inline select-none rounded-lg shadow-lg hover:saturate-150"
+						width="96"
+						height="96"
+					/>
 
 					<div class="inline-block pl-4">
-						<nuxt-link :to="article._path" class="mb-3 text-xl font-semibold hover:underline">
+						<div class="mb-3 text-xl font-semibold hover:underline">
 							{{ article.title }}
-						</nuxt-link>
+						</div>
 						<p class="mb-6 opacity-80">
 							<small>
 								Published on <u :title="longDate.format(new Date(article.date))">{{ date.format(new Date(article.date)) }}</u> by
@@ -30,8 +33,8 @@
 				<p class="pt-4 opacity-90">
 					{{ article.description }}
 				</p>
-			</div>
-		</ContentList>
+			</nuxt-link>
+		</content-list>
 	</div>
 </template>
 
