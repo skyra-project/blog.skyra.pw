@@ -5,7 +5,14 @@ node_modules/
 .output/
 dist/
 functions/
-.yarn/
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 .env
 *.log*
