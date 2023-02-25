@@ -5,7 +5,7 @@
 		"dev": "nuxt dev",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
-		"format": "prettier --write --loglevel=warn \"{assets,components,content,layouts,pages,server}/**/*.{js,ts,json,vue,md}\" \"app.vue\" \"nuxt.config.ts\" \"tailwind.config.ts\""
+		"format": "prettier --write ."
 	},
 	"devDependencies": {
 		"@nuxt/content": "^2.4.3",
