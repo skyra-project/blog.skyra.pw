@@ -43,24 +43,17 @@ const longDate = new Intl.DateTimeFormat(['en-GB', 'en-US'], { dateStyle: 'full'
 
 <style scoped>
 .btn {
-	@apply inline-flex h-12 min-h-[3rem] flex-shrink-0 cursor-pointer select-none flex-wrap items-center justify-center rounded-lg border px-4 text-center leading-4 no-underline;
-	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-		backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+	@apply inline-flex cursor-pointer select-none flex-wrap items-center justify-center rounded-lg border py-3 px-4 text-center no-underline;
+	transition-property: background-color, box-shadow;
 	transition-duration: 0.2s;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 	animation: button-pop 0.25s ease-out;
-	--tw-border-opacity: 1;
-	--tw-bg-opacity: 1;
-	--tw-text-opacity: 1;
 }
 
 .btn-ghost {
 	@apply border border-transparent bg-transparent text-current;
 }
 
-.btn-ghost:hover,
-.btn-ghost.btn-active,
 .btn:hover,
 .btn:active {
 	@apply bg-zinc-300/20 shadow-md drop-shadow-md dark:bg-stone-500/20;
