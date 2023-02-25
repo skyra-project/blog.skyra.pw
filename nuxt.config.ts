@@ -98,8 +98,6 @@ export default defineNuxtConfig({
 			title: 'Skyra Blog',
 			htmlAttrs: { lang: 'en_GB' },
 			link: [
-				{ rel: 'preconnect', href: 'https://fonts.bunny.net' },
-				{ rel: 'stylesheet', href: 'https://fonts.bunny.net/css?family=inter:100,400,700|noto-sans:100,400,700|roboto:100,400,700' },
 				{ rel: 'alternate', href: 'https://blog.skyra.pw' },
 				{ rel: 'canonical', href: 'https://blog.skyra.pw' },
 				{ rel: 'apple-touch-icon', href: '/icons/apple-touch-icon.png' },
