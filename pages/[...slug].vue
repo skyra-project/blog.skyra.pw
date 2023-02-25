@@ -1,6 +1,6 @@
 <template>
 	<ContentDoc v-slot="{ doc }">
-		<section class="prose prose-zinc dark:prose-invert mx-auto max-w-full px-8 pt-2 sm:px-0">
+		<section class="prose prose-zinc dark:prose-invert mx-auto max-w-full px-4 pt-2">
 			<img :src="`/images/${doc.image}.png`" class="mb-0 inline w-24 select-none rounded-lg align-top shadow-lg" :alt="doc.image" />
 			<div class="inline-block pl-4">
 				<h1 class="mb-1 mt-2">{{ doc.title }}</h1>
