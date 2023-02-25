@@ -52,7 +52,7 @@ const manifestIcons = [
 ];
 
 export default defineNuxtConfig({
-	modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt'],
+	modules: ['@nuxt/image-edge', '@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt'],
 	pwa: {
 		registerType: 'autoUpdate',
 		devOptions: {

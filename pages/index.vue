@@ -10,12 +10,15 @@
 			>
 				<div class="flex">
 					<div>
-						<img
+						<nuxt-img
 							:src="`/images/${article.image}.png`"
 							:alt="article.image"
 							class="inline select-none rounded-lg shadow-lg hover:saturate-150"
 							width="96"
 							height="96"
+							format="webp"
+							preload
+							loading="lazy"
 						/>
 					</div>
 
