@@ -1,5 +1,5 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 
 export default <Partial<Config>>{
-  plugins: [require("@tailwindcss/typography")],
+	plugins: [require('@tailwindcss/typography')]
 };

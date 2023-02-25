@@ -1,7 +1,7 @@
 <template>
 	<ContentDoc v-slot="{ doc }">
-		<section class="max-w-full prose prose-zinc dark:prose-invert px-8 sm:px-0 pt-2 mx-auto">
-			<img :src="`/images/${doc.image}.png`" class="w-24 shadow-lg rounded-lg inline align-top mb-0 select-none" :alt="doc.image" />
+		<section class="prose prose-zinc dark:prose-invert mx-auto max-w-full px-8 pt-2 sm:px-0">
+			<img :src="`/images/${doc.image}.png`" class="mb-0 inline w-24 select-none rounded-lg align-top shadow-lg" :alt="doc.image" />
 			<div class="inline-block pl-4">
 				<h1 class="mb-1 mt-2">{{ doc.title }}</h1>
 				<small class="opacity-80">
@@ -14,15 +14,15 @@
 		</section>
 	</ContentDoc>
 
-	<div class="text-right pt-6">
-		<nuxt-link href="/" class="hover:text-indigo-500 delay-200 ease-in-out font-semibold">
+	<div class="pt-6 text-right">
+		<nuxt-link href="/" class="font-semibold delay-200 ease-in-out hover:text-indigo-500">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 24 24"
 				stroke-width="1.5"
 				stroke="currentColor"
-				class="w-6 h-6 -mt-1 inline-block"
+				class="-mt-1 inline-block h-6 w-6"
 			>
 				<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
 			</svg>
