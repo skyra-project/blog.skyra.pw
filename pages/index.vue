@@ -36,7 +36,8 @@ import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types';
 
 const query = {
 	limit: 10,
-	sort: [{ date: -1 }]
+	sort: [{ date: -1 }],
+	only: ['_path', 'title', 'description', 'image', 'date', 'author']
 } satisfies QueryBuilderParams;
 
 const date = new Intl.DateTimeFormat(['en-GB', 'en-US']);
