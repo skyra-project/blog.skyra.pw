@@ -9,13 +9,15 @@
 				class="rounded-lg bg-zinc-100 p-4 shadow-md drop-shadow-md dark:bg-zinc-700"
 			>
 				<div class="flex">
-					<img
-						:src="`/images/${article.image}.png`"
-						:alt="article.image"
-						class="inline select-none rounded-lg shadow-lg hover:saturate-150"
-						width="96"
-						height="96"
-					/>
+					<div>
+						<img
+							:src="`/images/${article.image}.png`"
+							:alt="article.image"
+							class="inline select-none rounded-lg shadow-lg hover:saturate-150"
+							width="96"
+							height="96"
+						/>
+					</div>
 
 					<div class="inline-block pl-4">
 						<div class="mb-3 text-xl font-semibold hover:underline">
