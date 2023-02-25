@@ -1,35 +1,33 @@
-# Nuxt 3 Minimal Starter
+# blog.skyra.pw [![Discord](https://discord.com/api/guilds/254360814063058944/embed.png)](https://join.skyra.pw)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Buy us some doughnuts
 
-## Setup
+Skyra Project is open source and always will be, even if we don't get donations. That said, we know there are amazing people who
+may still want to donate just to show their appreciation. Thanks you very much in advance!
 
-Make sure to install the dependencies:
+We accept donations through Patreon, BitCoin, Ethereum, and Litecoin. You can use the buttons below to donate through your method of choice.
 
-```bash
-yarn install
-```
+| Donate With |         QR         |                                                                  Address                                                                  |
+| :---------: | :----------------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
+|   Patreon   | ![PatreonImage][]  |                                               [Click Here](https://donate.skyra.pw/patreon)                                               |
+|   PayPal    |  ![PayPalImage][]  |                                               [Click Here](https://donate.skyra.pw/paypal)                                                |
+|   BitCoin   | ![BitcoinImage][]  |         [3JNzCHMTFtxYFWBnVtDM9Tt34zFbKvdwco](bitcoin:3JNzCHMTFtxYFWBnVtDM9Tt34zFbKvdwco?amount=0.01&label=Skyra%20Discord%20Bot)          |
+|  Ethereum   | ![EthereumImage][] | [0xcB5EDB76Bc9E389514F905D9680589004C00190c](ethereum:0xcB5EDB76Bc9E389514F905D9680589004C00190c?amount=0.01&label=Skyra%20Discord%20Bot) |
+|  Litecoin   | ![LitecoinImage][] |         [MNVT1keYGMfGp7vWmcYjCS8ntU8LNvjnqM](litecoin:MNVT1keYGMfGp7vWmcYjCS8ntU8LNvjnqM?amount=0.01&label=Skyra%20Discord%20Bot)         |
 
-## Development Server
+## Contributors
 
-Start the development server on http://localhost:3000
+Please make sure to read the [Contributing Guide][contributing] before making a pull request.
 
-```bash
-npm run dev
-```
+Thank you to all the people who already contributed to Skyra Project!
 
-## Production
+<a href="https://github.com/skyra-project/blog.skyra.pw/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=skyra-project/blog.skyra.pw" />
+</a>
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[contributing]: https://github.com/skyra-project/.github/blob/main/.github/CONTRIBUTING.md
+[patreonimage]: https://cdn.skyra.pw/gh-assets/patreon.png
+[paypalimage]: https://cdn.skyra.pw/gh-assets/paypal.png
+[bitcoinimage]: https://cdn.skyra.pw/gh-assets/bitcoin.png
+[ethereumimage]: https://cdn.skyra.pw/gh-assets/ethereum.png
+[litecoinimage]: https://cdn.skyra.pw/gh-assets/litecoin.png
