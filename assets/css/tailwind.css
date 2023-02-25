@@ -11,6 +11,12 @@
 			'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	}
 
+	body {
+		position: fixed;
+		min-height: 100vh;
+		min-width: 100%;
+	}
+
 	a {
 		@apply underline-offset-2;
 	}

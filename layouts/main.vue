@@ -1,13 +1,13 @@
 <template>
-	<div class="flex flex-col h-screen">
-		<sections-app-header />
-		<div class="flex-auto justify-between mt-4">
-			<div class="w-full">
-				<main class="sm:w-5/6 lg:max-w-5xl mx-auto">
+	<div class="h-full pb-20 flex flex-col">
+		<div class="grid-layout grid min-h-full">
+			<sections-app-header />
+			<section class="grid-layout-container grid h-[calc(100vh_-_96px)] overflow-auto pb-20 lg:pb-0">
+				<main>
 					<slot></slot>
 				</main>
-			</div>
+			</section>
+			<sections-app-footer />
 		</div>
-		<sections-app-footer />
 	</div>
 </template>
