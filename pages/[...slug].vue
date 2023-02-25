@@ -1,25 +1,27 @@
 <template>
 	<section class="prose prose-zinc dark:prose-invert mx-auto max-w-full px-4 pt-2">
-		<ContentDoc>
-			<template v-slot="{ doc }">
-				<img :src="`/images/${doc.image}.png`" class="mb-0 inline w-24 select-none rounded-lg align-top shadow-lg" :alt="doc.image" />
-				<div class="inline-block pl-4">
-					<h1 class="mb-1 mt-2">{{ doc.title }}</h1>
-					<small class="opacity-80">
-						Published on <u :title="longDate.format(new Date(doc.date))">{{ date.format(new Date(doc.date)) }}</u> by
-						<span class="opacity-90">{{ doc.author }}</span>
-					</small>
-				</div>
-				<hr />
-				<ContentRenderer :value="doc" />
-			</template>
-			<template #not-found>
-				<sections-content-not-found />
-			</template>
-			<template #empty>
-				<sections-content-empty />
-			</template>
-		</ContentDoc>
+		<ClientOnly>
+			<ContentDoc>
+				<template v-slot="{ doc }">
+					<img :src="`/images/${doc.image}.png`" class="mb-0 inline w-24 select-none rounded-lg align-top shadow-lg" :alt="doc.image" />
+					<div class="inline-block pl-4">
+						<h1 class="mb-1 mt-2">{{ doc.title }}</h1>
+						<small class="opacity-80">
+							Published on <u :title="longDate.format(new Date(doc.date))">{{ date.format(new Date(doc.date)) }}</u> by
+							<span class="opacity-90">{{ doc.author }}</span>
+						</small>
+					</div>
+					<hr />
+					<ContentRenderer :value="doc" />
+				</template>
+				<template #not-found>
+					<sections-content-not-found />
+				</template>
+				<template #empty>
+					<sections-content-empty />
+				</template>
+			</ContentDoc>
+		</ClientOnly>
 	</section>
 
 	<div class="px-4 pt-6 text-right md:px-0">
