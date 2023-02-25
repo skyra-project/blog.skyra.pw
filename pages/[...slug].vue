@@ -5,7 +5,7 @@
 			<div class="inline-block pl-4">
 				<h1 class="mb-1 mt-2">{{ doc.title }}</h1>
 				<small class="opacity-80">
-					Published on <u>{{ new Intl.DateTimeFormat().format(new Date(doc.date)) }}</u> by
+					Published on <u :title="longDate.format(new Date(doc.date))">{{ date.format(new Date(doc.date)) }}</u> by
 					<span class="opacity-90">{{ doc.author }}</span>
 				</small>
 			</div>
@@ -15,7 +15,7 @@
 	</ContentDoc>
 
 	<div class="text-right pt-6">
-		<NuxtLink href="/" class="hover:text-indigo-500 delay-200 ease-in-out font-semibold">
+		<nuxt-link href="/" class="hover:text-indigo-500 delay-200 ease-in-out font-semibold">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -27,6 +27,11 @@
 				<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
 			</svg>
 			Go Back
-		</NuxtLink>
+		</nuxt-link>
 	</div>
 </template>
+
+<script setup lang="ts">
+const date = new Intl.DateTimeFormat();
+const longDate = new Intl.DateTimeFormat(undefined, { dateStyle: 'full' });
+</script>

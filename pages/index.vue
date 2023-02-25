@@ -3,21 +3,21 @@
 	<div class="grid lg:grid-cols-2 gap-1 lg:gap-10">
 		<ContentList v-slot="{ list }" :query="query">
 			<div v-for="article of list" :key="article._path" class="sm:rounded-lg bg-zinc-100 dark:bg-zinc-700 p-4">
-				<NuxtLink :to="article._path">
+				<nuxt-link :to="article._path">
 					<img
 						:src="`/images/${article.image}.png`"
 						class="w-24 h-24 hover:saturate-150 shadow-lg rounded-lg inline select-none"
 						:alt="article.image"
 					/>
-				</NuxtLink>
+				</nuxt-link>
 
 				<div class="inline-block pl-4">
-					<NuxtLink :to="article._path" class="text-xl font-semibold hover:underline mb-3">
+					<nuxt-link :to="article._path" class="text-xl font-semibold hover:underline mb-3">
 						{{ article.title }}
-					</NuxtLink>
+					</nuxt-link>
 					<p class="opacity-80 mb-6">
 						<small>
-							Published on <u>{{ time.format(new Date(article.date)) }}</u> by
+							Published on <u :title="longDate.format(new Date(article.date))">{{ date.format(new Date(article.date)) }}</u> by
 							<span class="opacity-90">{{ article.author }}</span></small
 						>
 					</p>
@@ -39,7 +39,8 @@ const query = {
 	sort: [{ date: -1 }]
 } satisfies QueryBuilderParams;
 
-const time = new Intl.DateTimeFormat();
+const date = new Intl.DateTimeFormat();
+const longDate = new Intl.DateTimeFormat(undefined, { dateStyle: 'full' });
 
 useHead({
 	title: 'Skyra Blog'
