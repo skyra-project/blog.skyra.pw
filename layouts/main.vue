@@ -1,9 +1,9 @@
 <template>
-	<div class="flex flex-col h-screen">
+	<div class="flex h-screen flex-col">
 		<sections-app-header />
-		<div class="flex-auto justify-between mt-4">
+		<div class="mt-4 flex-auto justify-between">
 			<div class="w-full">
-				<main class="sm:w-5/6 lg:max-w-5xl mx-auto">
+				<main class="mx-auto sm:w-5/6 lg:max-w-5xl">
 					<slot></slot>
 				</main>
 			</div>
