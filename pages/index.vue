@@ -1,8 +1,8 @@
 <template>
 	<h2 class="mb-12 pt-4 text-center text-4xl font-extrabold">Latest articles</h2>
-	<div class="grid gap-1 lg:grid-cols-2 lg:gap-10">
+	<div class="grid gap-3 mx-4 md:mx-0 lg:grid-cols-2 lg:gap-10">
 		<ContentList v-slot="{ list }" :query="query">
-			<div v-for="article of list" :key="article._path" class="bg-zinc-100 p-4 dark:bg-zinc-700 sm:rounded-lg">
+			<div v-for="article of list" :key="article._path" class="bg-zinc-100 p-4 dark:bg-zinc-700 rounded-lg drop-shadow-md shadow-md">
 				<nuxt-link :to="article._path">
 					<img
 						:src="`/images/${article.image}.png`"
@@ -39,8 +39,8 @@ const query = {
 	sort: [{ date: -1 }]
 } satisfies QueryBuilderParams;
 
-const date = new Intl.DateTimeFormat();
-const longDate = new Intl.DateTimeFormat(undefined, { dateStyle: 'full' });
+const date = new Intl.DateTimeFormat(['en-GB', 'en-US']);
+const longDate = new Intl.DateTimeFormat(['en-GB', 'en-US'], { dateStyle: 'full' });
 
 useHead({
 	title: 'Skyra Blog'
