@@ -1,3 +1,4 @@
+import '@nuxt/image-edge';
 import '@vite-pwa/nuxt';
 import 'nuxt';
 
@@ -86,6 +87,16 @@ export default defineNuxtConfig({
 	typescript: {
 		shim: false
 	},
+	nitro: {
+		preset: 'cloudflare-pages',
+		prerender: {
+			routes: ['/sitemap.xml', '/']
+		},
+		serveStatic: true
+	},
+	image: {
+		provider: 'static'
+	},
 	app: {
 		head: {
 			charset: 'utf-8',
@@ -156,12 +167,5 @@ export default defineNuxtConfig({
 				{ property: 'og:url', content: 'https://blog.skyra.pw' }
 			]
 		}
-	},
-	nitro: {
-		preset: 'cloudflare-pages',
-		prerender: {
-			routes: ['/sitemap.xml', '/']
-		},
-		serveStatic: true
 	}
 });
