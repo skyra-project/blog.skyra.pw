@@ -8,6 +8,15 @@ module.exports = {
 			options: {
 				parser: 'xml'
 			}
+		},
+		{
+			files: ['README.md', 'content/**/*.md'],
+			options: {
+				tabWidth: 2,
+				useTabs: false,
+				printWidth: 120,
+				proseWrap: 'always'
+			}
 		}
 	]
 };
