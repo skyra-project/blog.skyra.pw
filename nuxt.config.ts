@@ -60,6 +60,7 @@ export default defineNuxtConfig({
 	modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt'],
 	pwa: {
 		registerType: 'autoUpdate',
+		includeManifestIcons: false,
 		devOptions: {
 			enabled: false,
 			type: 'module'
