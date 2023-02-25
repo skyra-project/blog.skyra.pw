@@ -1,6 +1,5 @@
 .nuxt/
 .yarn/
 .output/
-dist/
+functions/
 node_modules/
-old_src/
