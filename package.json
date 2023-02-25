@@ -11,14 +11,15 @@
 	"devDependencies": {
 		"@nuxt/content": "^2.4.3",
 		"@nuxtjs/tailwindcss": "^6.4.1",
+		"@prettier/plugin-xml": "^2.2.0",
 		"@sapphire/prettier-config": "^1.4.5",
 		"@tailwindcss/typography": "^0.5.9",
 		"@vite-pwa/nuxt": "^0.0.6",
 		"nuxt": "^3.2.2",
 		"prettier": "^2.8.4",
+		"prettier-plugin-tailwindcss": "^0.2.2",
 		"sitemap": "^7.1.1",
 		"vite-plugin-pwa": "^0.14.4"
 	},
-	"prettier": "@sapphire/prettier-config",
 	"packageManager": "yarn@3.4.1"
 }
