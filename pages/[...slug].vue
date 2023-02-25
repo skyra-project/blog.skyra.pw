@@ -3,13 +3,23 @@
 		<ClientOnly>
 			<ContentDoc>
 				<template v-slot="{ doc }">
-					<img :src="`/images/${doc.image}.png`" class="mb-0 inline w-24 select-none rounded-lg align-top shadow-lg" :alt="doc.image" />
-					<div class="inline-block pl-4">
-						<h1 class="mb-1 mt-2">{{ doc.title }}</h1>
-						<small class="opacity-80">
-							Published on <u :title="longDate.format(new Date(doc.date))">{{ date.format(new Date(doc.date)) }}</u> by
-							<span class="opacity-90">{{ doc.author }}</span>
-						</small>
+					<div class="flex gap-4">
+						<div>
+							<img
+								:src="`/images/${doc.image}.png`"
+								class="m-0 select-none rounded-lg shadow-lg"
+								width="96"
+								height="96"
+								:alt="doc.image"
+							/>
+						</div>
+						<div>
+							<h1 class="mb-0">{{ doc.title }}</h1>
+							<small class="opacity-80">
+								Published on <u :title="longDate.format(new Date(doc.date))">{{ date.format(new Date(doc.date)) }}</u> by
+								<span class="opacity-90">{{ doc.author }}</span>
+							</small>
+						</div>
 					</div>
 					<hr />
 					<ContentRenderer :value="doc" />
