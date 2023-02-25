@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex bg-opacity-25 rounded-lg p-4 mb-4 text-sm"
+		class="mb-4 flex rounded-lg bg-opacity-25 p-4 text-sm"
 		:class="{
 			'bg-blue-500': type === 'info',
 			'bg-yellow-500': type === 'warning',
@@ -10,7 +10,7 @@
 		role="alert"
 	>
 		<svg
-			class="w-5 h-5 inline mr-3 dark:text-zinc-50 flex-shrink-0"
+			class="mr-3 inline h-5 w-5 flex-shrink-0 dark:text-zinc-50"
 			:class="{
 				'text-blue-600': type === 'info',
 				'text-yellow-600': type === 'warning',
