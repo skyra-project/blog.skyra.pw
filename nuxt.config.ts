@@ -61,7 +61,7 @@ export default defineNuxtConfig({
 	pwa: {
 		registerType: 'autoUpdate',
 		devOptions: {
-			enabled: true,
+			enabled: false,
 			type: 'module'
 		},
 		manifest: {
@@ -69,7 +69,7 @@ export default defineNuxtConfig({
 			categories: ['discord', 'bot', 'skyra', 'moderation', 'automation', 'kyra', 'favna', 'kyranet'],
 			description: "Skyra Project's Blog Posts",
 			display: 'minimal-ui',
-			lang: 'en_US',
+			lang: 'en_GB',
 			name: 'ArchId Blog',
 			orientation: 'portrait-primary',
 			scope: '/',
@@ -156,7 +156,7 @@ export default defineNuxtConfig({
 				{ property: 'og:image:height', content: '512' },
 				{ property: 'og:image:width', content: '1024' },
 				{ property: 'og:image', content: 'https://blog.skyra.pw/icons/opengraph.png' },
-				{ property: 'og:locale', content: 'en_US' },
+				{ property: 'og:locale', content: 'en_GB' },
 				{ property: 'og:site_name', content: "Skyra Project's Blog Posts" },
 				{ property: 'og:title', content: "Skyra Project's Blog Posts" },
 				{ property: 'og:type', content: 'website' },
