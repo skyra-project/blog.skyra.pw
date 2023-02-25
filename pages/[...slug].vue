@@ -1,7 +1,7 @@
 <template>
 	<section class="prose prose-zinc dark:prose-invert mx-auto max-w-full px-4 pt-2">
-		<ClientOnly>
-			<ContentDoc>
+		<client-only>
+			<content-doc>
 				<template v-slot="{ doc }">
 					<div class="flex gap-4">
 						<div>
@@ -22,7 +22,7 @@
 						</div>
 					</div>
 					<hr />
-					<ContentRenderer :value="doc" />
+					<content-renderer :value="doc" />
 				</template>
 				<template #not-found>
 					<sections-content-not-found />
@@ -30,8 +30,8 @@
 				<template #empty>
 					<sections-content-empty />
 				</template>
-			</ContentDoc>
-		</ClientOnly>
+			</content-doc>
+		</client-only>
 	</section>
 
 	<div class="px-4 pt-6 text-right md:px-0">
