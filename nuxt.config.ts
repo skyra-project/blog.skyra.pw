@@ -91,7 +91,7 @@ export default defineNuxtConfig({
 			charset: 'utf-8',
 			viewport: 'width=device-width, initial-scale=1',
 			title: 'Skyra Blog',
-			htmlAttrs: { lang: 'en_GB' },
+			htmlAttrs: { lang: 'en' },
 			link: [
 				{ rel: 'alternate', href: 'https://blog.skyra.pw' },
 				{ rel: 'canonical', href: 'https://blog.skyra.pw' },
@@ -149,7 +149,7 @@ export default defineNuxtConfig({
 				{ property: 'og:image:height', content: '512' },
 				{ property: 'og:image:width', content: '1024' },
 				{ property: 'og:image', content: 'https://blog.skyra.pw/icons/opengraph.png' },
-				{ property: 'og:locale', content: 'en_GB' },
+				{ property: 'og:locale', content: 'en' },
 				{ property: 'og:site_name', content: "Skyra Project's Blog Posts" },
 				{ property: 'og:title', content: "Skyra Project's Blog Posts" },
 				{ property: 'og:type', content: 'website' },
