@@ -19,7 +19,7 @@
 						/>
 					</div>
 
-					<div class="inline-block pl-4">
+					<div class="pl-4">
 						<div class="mb-3 text-xl font-semibold hover:underline">
 							{{ article.title }}
 						</div>
