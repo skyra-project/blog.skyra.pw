@@ -58,7 +58,12 @@ const manifestIcons = [
 
 export default defineNuxtConfig({
 	modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt'],
+	content: {
+		documentDriven: true
+	},
 	pwa: {
+		// TODO: Remove
+		disable: true,
 		registerType: 'autoUpdate',
 		includeManifestIcons: false,
 		devOptions: {
@@ -167,7 +172,6 @@ export default defineNuxtConfig({
 		preset: 'cloudflare-pages',
 		prerender: {
 			routes: ['/sitemap.xml', '/']
-		},
-		serveStatic: true
+		}
 	}
 });
