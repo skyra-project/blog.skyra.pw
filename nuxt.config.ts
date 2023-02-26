@@ -62,8 +62,6 @@ export default defineNuxtConfig({
 		documentDriven: true
 	},
 	pwa: {
-		// TODO: Remove
-		disable: true,
 		registerType: 'autoUpdate',
 		includeManifestIcons: false,
 		devOptions: {
