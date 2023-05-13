@@ -1,18 +1,20 @@
 <template>
 	<nuxt-layout name="main" class="prose prose-zinc dark:prose-invert mx-auto max-w-full px-4">
-		<div class="flex gap-4">
-			<div>
-				<img :src="`/images/${page.image}.png`" class="m-0 select-none rounded-lg shadow-lg" width="96" height="96" :alt="page.image" />
+		<template v-if="page">
+			<div class="flex gap-4">
+				<div>
+					<img :src="`/images/${page.image}.png`" class="m-0 select-none rounded-lg shadow-lg" width="96" height="96" :alt="page.image" />
+				</div>
+				<div>
+					<h1 class="mb-0">{{ page.title }}</h1>
+					<small class="opacity-80">
+						Published on <u :title="longDate.format(new Date(page.date))">{{ date.format(new Date(page.date)) }}</u> by
+						<span class="opacity-90">{{ page.author }}</span>
+					</small>
+				</div>
 			</div>
-			<div>
-				<h1 class="mb-0">{{ page.title }}</h1>
-				<small class="opacity-80">
-					Published on <u :title="longDate.format(new Date(page.date))">{{ date.format(new Date(page.date)) }}</u> by
-					<span class="opacity-90">{{ page.author }}</span>
-				</small>
-			</div>
-		</div>
-		<hr />
+			<hr />
+		</template>
 
 		<slot></slot>
 
