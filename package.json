@@ -14,11 +14,11 @@
 		"@sapphire/prettier-config": "^1.4.5",
 		"@tailwindcss/typography": "^0.5.9",
 		"@vite-pwa/nuxt": "^0.0.9",
-		"nuxt": "^3.5.0",
+		"nuxt": "^3.5.1",
 		"prettier": "^2.8.8",
 		"prettier-plugin-tailwindcss": "^0.3.0",
 		"sitemap": "^7.1.1",
-		"vite-plugin-pwa": "^0.15.0"
+		"vite-plugin-pwa": "^0.15.1"
 	},
 	"packageManager": "yarn@3.5.1"
 }
