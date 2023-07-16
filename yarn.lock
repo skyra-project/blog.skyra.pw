@@ -1900,15 +1900,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.6.2, @nuxt/kit@npm:^3.5.3, @nuxt/kit@npm:^3.6.1":
-  version: 3.6.2
-  resolution: "@nuxt/kit@npm:3.6.2"
+"@nuxt/kit@npm:3.6.3, @nuxt/kit@npm:^3.5.3, @nuxt/kit@npm:^3.6.1":
+  version: 3.6.3
+  resolution: "@nuxt/kit@npm:3.6.3"
   dependencies:
-    "@nuxt/schema": 3.6.2
+    "@nuxt/schema": 3.6.3
     c12: ^1.4.2
-    consola: ^3.2.2
+    consola: ^3.2.3
     defu: ^6.1.2
-    globby: ^13.2.1
+    globby: ^13.2.2
     hash-sum: ^2.0.0
     ignore: ^5.2.4
     jiti: ^1.19.1
@@ -1921,7 +1921,7 @@ __metadata:
     unctx: ^2.3.1
     unimport: ^3.0.14
     untyped: ^1.3.2
-  checksum: 31670b6ccb14fc09f7a2f4b4484a176195ce2c27191e0d46aad4204ef91cfa9b6deb7fcc2103304d98575d371920a24e91ab8f35b02f84e13dcb9f2e77e7a8e1
+  checksum: 08538308be294de832944970f66c34c3084991b96330ab65cef55770f84b75b7879edd76b838f4978829d6b8db872013d415ec97bb859df4dbe6c8a991c54cf6
   languageName: node
   linkType: hard
 
@@ -1941,9 +1941,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/schema@npm:3.6.2":
-  version: 3.6.2
-  resolution: "@nuxt/schema@npm:3.6.2"
+"@nuxt/schema@npm:3.6.3":
+  version: 3.6.3
+  resolution: "@nuxt/schema@npm:3.6.3"
   dependencies:
     defu: ^6.1.2
     hookable: ^5.5.3
@@ -1954,7 +1954,7 @@ __metadata:
     ufo: ^1.1.2
     unimport: ^3.0.14
     untyped: ^1.3.2
-  checksum: 931ba8612299e5698235ab48a0d9d1fb74db6fdcfefca12cd87c4bf6c371fc0091530fb78a73885f5c66d2d988a03d847f6ebf772c0b9a058ad8fe63d506d259
+  checksum: 0f18fa880087cf2191bccbab1e173ddd215ed7ac73263d6c1e06b9f434b78ce9f202ee670e4d0041e4b3a9a49fc8167211f2945c3d55a7056e5df46cd210259c
   languageName: node
   linkType: hard
 
@@ -1994,17 +1994,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/vite-builder@npm:3.6.2":
-  version: 3.6.2
-  resolution: "@nuxt/vite-builder@npm:3.6.2"
+"@nuxt/vite-builder@npm:3.6.3":
+  version: 3.6.3
+  resolution: "@nuxt/vite-builder@npm:3.6.3"
   dependencies:
-    "@nuxt/kit": 3.6.2
+    "@nuxt/kit": 3.6.3
     "@rollup/plugin-replace": ^5.0.2
     "@vitejs/plugin-vue": ^4.2.3
     "@vitejs/plugin-vue-jsx": ^3.0.1
     autoprefixer: ^10.4.14
     clear: ^0.1.0
-    consola: ^3.2.2
+    consola: ^3.2.3
     cssnano: ^6.0.1
     defu: ^6.1.2
     esbuild: ^0.18.11
@@ -2030,12 +2030,12 @@ __metadata:
     ufo: ^1.1.2
     unplugin: ^1.3.2
     vite: ~4.3.9
-    vite-node: ^0.32.4
+    vite-node: ^0.33.0
     vite-plugin-checker: ^0.6.1
     vue-bundle-renderer: ^1.0.3
   peerDependencies:
     vue: ^3.3.4
-  checksum: 58fa49c564a7090071a1b7e4efa99d64c2a8d0800a7c7ba6e0371414721fd87a4042107f074b1c2225825ed8f5ff3b98b9541d7658bfe7bd01bc74a42bada6c4
+  checksum: 36b5e43b71a6aa6eb0b5f297f04bf220a72b1ce51c19b652deae6bb8516107945cccc226f9bbb9ffad76c6f996807bad50653836206a5e89451782b5c90e9825
   languageName: node
   linkType: hard
 
@@ -2068,13 +2068,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-xml@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@prettier/plugin-xml@npm:3.1.0"
+"@prettier/plugin-xml@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@prettier/plugin-xml@npm:3.1.1"
   dependencies:
     "@xml-tools/parser": ^1.0.11
-    prettier: ">=3.0.0"
-  checksum: 094723a8ef7f557473a503c9592f6d2d466adc53e4a1f1dacdf63be46353893686fc92ae31158566e54ce3c949fe719ae05b5e25959eb9645a4b149f6cafce00
+  peerDependencies:
+    prettier: ^3.0.0
+  checksum: 9449a5aaa62af0fb652142363d4313c3954d7e37ef0227f7788e16d966f4bd3ab6434e3364a9edbf2f044db5b1ddb6d895438837ac92530537bcc5f3d47a9a04
   languageName: node
   linkType: hard
 
@@ -3652,7 +3653,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:^3.1.0, consola@npm:^3.2.2":
+"consola@npm:^3.1.0, consola@npm:^3.2.2, consola@npm:^3.2.3":
   version: 3.2.3
   resolution: "consola@npm:3.2.3"
   checksum: 32ec70e177dd2385c42e38078958cc7397be91db21af90c6f9faa0b16168b49b1c61d689338604bbb2d64370b9347a35f42a9197663a913d3a405bb0ce728499
@@ -5122,7 +5123,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^13.2.0, globby@npm:^13.2.1":
+"globby@npm:^13.2.0, globby@npm:^13.2.2":
   version: 13.2.2
   resolution: "globby@npm:13.2.2"
   dependencies:
@@ -7624,9 +7625,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxi@npm:3.6.2":
-  version: 3.6.2
-  resolution: "nuxi@npm:3.6.2"
+"nuxi@npm:3.6.3":
+  version: 3.6.3
+  resolution: "nuxi@npm:3.6.3"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -7634,20 +7635,20 @@ __metadata:
       optional: true
   bin:
     nuxi: bin/nuxi.mjs
-  checksum: 04fc14b58a619bb653beca5e9ff42ae9a01d95399b7bc632a68bd6332b699592bd290ed7c1e53dd8a76702546a4475029ab2f96a58ef40d2ca3e31c91f177d1e
+  checksum: 9b087ce626ca274f284fccd2abc035ff843a3f620408e5bbeec6e2f745483529c422cb47455836d65e2558b8b2a97b1f5d4b58fc1eae645c3d3d82cd5d6ad3e0
   languageName: node
   linkType: hard
 
-"nuxt@npm:^3.6.2":
-  version: 3.6.2
-  resolution: "nuxt@npm:3.6.2"
+"nuxt@npm:^3.6.3":
+  version: 3.6.3
+  resolution: "nuxt@npm:3.6.3"
   dependencies:
     "@nuxt/devalue": ^2.0.2
-    "@nuxt/kit": 3.6.2
-    "@nuxt/schema": 3.6.2
+    "@nuxt/kit": 3.6.3
+    "@nuxt/schema": 3.6.3
     "@nuxt/telemetry": ^2.3.0
     "@nuxt/ui-templates": ^1.2.0
-    "@nuxt/vite-builder": 3.6.2
+    "@nuxt/vite-builder": 3.6.3
     "@unhead/ssr": ^1.1.30
     "@unhead/vue": ^1.1.30
     "@vue/shared": ^3.3.4
@@ -7662,7 +7663,7 @@ __metadata:
     escape-string-regexp: ^5.0.0
     estree-walker: ^3.0.3
     fs-extra: ^11.1.1
-    globby: ^13.2.1
+    globby: ^13.2.2
     h3: ^1.7.1
     hookable: ^5.5.3
     jiti: ^1.19.1
@@ -7672,7 +7673,7 @@ __metadata:
     magic-string: ^0.30.1
     mlly: ^1.4.0
     nitropack: ^2.5.2
-    nuxi: 3.6.2
+    nuxi: 3.6.3
     nypm: ^0.2.2
     ofetch: ^1.1.1
     ohash: ^1.1.2
@@ -7693,7 +7694,7 @@ __metadata:
     vue: ^3.3.4
     vue-bundle-renderer: ^1.0.3
     vue-devtools-stub: ^0.1.0
-    vue-router: ^4.2.3
+    vue-router: ^4.2.4
   peerDependencies:
     "@parcel/watcher": ^2.1.0
     "@types/node": ^14.18.0 || >=16.10.0
@@ -7703,7 +7704,7 @@ __metadata:
   bin:
     nuxi: bin/nuxt.mjs
     nuxt: bin/nuxt.mjs
-  checksum: c74424de26663061e191c4ee06dc3cac1f6dba2e50b20706b444ddc540a9e2eed74807e4fd95432bc7b117c09a1c63ab66ef8031cbe0646fc72ccf879490b0db
+  checksum: 47d6a461c2e53375bdcb0c6fc50050439131841101760fb529562e6ca25aae68231709d4bf7031acfefeaf7a8c0b1c0e6b02bad6feb9ac1554c0ed7b26cba45c
   languageName: node
   linkType: hard
 
@@ -8574,16 +8575,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "prettier-plugin-tailwindcss@npm:0.3.0"
+"prettier-plugin-tailwindcss@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "prettier-plugin-tailwindcss@npm:0.4.1"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
     "@shufo/prettier-plugin-blade": "*"
     "@trivago/prettier-plugin-sort-imports": "*"
-    prettier: ">=2.2.0"
+    prettier: ^2.2 || ^3.0
     prettier-plugin-astro: "*"
     prettier-plugin-css-order: "*"
     prettier-plugin-import-sort: "*"
@@ -8625,16 +8626,7 @@ __metadata:
       optional: true
     prettier-plugin-twig-melody:
       optional: true
-  checksum: 007c09558433dac0c81d42fd9695f8ed17be56be2e446a03e2557f01ae8e26bb11945780f9afa4e6e90b861aad3fbfac6a65d381804273d5539e7d26b0a270c9
-  languageName: node
-  linkType: hard
-
-"prettier@npm:>=3.0.0, prettier@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "prettier@npm:3.0.0"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 6a832876a1552dc58330d2467874e5a0b46b9ccbfc5d3531eb69d15684743e7f83dc9fbd202db6270446deba9c82b79d24383d09924c462b457136a759425e33
+  checksum: 9bdf3b7c270cc544f6bc38bbb869d3a97afc93de5005eee7272a36f374488731349c9362d2bbe4c83bd2a14b8a7c96cd25b9b682d1bea6dccc5bf08b2d02096c
   languageName: node
   linkType: hard
 
@@ -8644,6 +8636,15 @@ __metadata:
   bin:
     prettier: bin-prettier.js
   checksum: b49e409431bf129dd89238d64299ba80717b57ff5a6d1c1a8b1a28b590d998a34e083fa13573bc732bb8d2305becb4c9a4407f8486c81fa7d55100eb08263cf8
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "prettier@npm:3.0.0"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 6a832876a1552dc58330d2467874e5a0b46b9ccbfc5d3531eb69d15684743e7f83dc9fbd202db6270446deba9c82b79d24383d09924c462b457136a759425e33
   languageName: node
   linkType: hard
 
@@ -9227,13 +9228,13 @@ __metadata:
   dependencies:
     "@nuxt/content": ^2.7.0
     "@nuxtjs/tailwindcss": ^6.8.0
-    "@prettier/plugin-xml": ^3.1.0
+    "@prettier/plugin-xml": ^3.1.1
     "@sapphire/prettier-config": ^1.4.5
     "@tailwindcss/typography": ^0.5.9
     "@vite-pwa/nuxt": ^0.1.0
-    nuxt: ^3.6.2
+    nuxt: ^3.6.3
     prettier: ^3.0.0
-    prettier-plugin-tailwindcss: ^0.3.0
+    prettier-plugin-tailwindcss: ^0.4.1
     sitemap: ^7.1.1
     typescript: ^5.1.6
     vite-plugin-pwa: ^0.16.4
@@ -10588,9 +10589,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-node@npm:^0.32.4":
-  version: 0.32.4
-  resolution: "vite-node@npm:0.32.4"
+"vite-node@npm:^0.33.0":
+  version: 0.33.0
+  resolution: "vite-node@npm:0.33.0"
   dependencies:
     cac: ^6.7.14
     debug: ^4.3.4
@@ -10600,7 +10601,7 @@ __metadata:
     vite: ^3.0.0 || ^4.0.0
   bin:
     vite-node: vite-node.mjs
-  checksum: 6edb7aafcc30b97213435e7b3bfa43e2133feadd46680c0e54b44064f9e38f9b6e3a75f7c0ccde6bf3b6f34cb9681ec6510fb966a11f9ca7239e9473200a4a24
+  checksum: 7c37911251d3e318fe4ad6b4093207498336ce190a58afb43a9ae701eee7f110ef80920b79061710cf6abcc6335ce58f6ca412ee6b268f25fe10f278c94cc264
   languageName: node
   linkType: hard
 
@@ -10786,7 +10787,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-router@npm:^4.2.3":
+"vue-router@npm:^4.2.4":
   version: 4.2.4
   resolution: "vue-router@npm:4.2.4"
   dependencies:
