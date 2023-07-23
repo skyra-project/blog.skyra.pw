@@ -5,13 +5,14 @@
 		"dev": "nuxt dev",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
+		"prettier": "prettier --ignore-path=.prettierignore",
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
 		"@nuxt/content": "^2.7.1",
 		"@nuxtjs/tailwindcss": "^6.8.0",
 		"@prettier/plugin-xml": "^3.1.1",
-		"@sapphire/prettier-config": "^1.4.5",
+		"@sapphire/prettier-config": "^2.0.0",
 		"@tailwindcss/typography": "^0.5.9",
 		"@vite-pwa/nuxt": "^0.1.0",
 		"nuxt": "^3.6.5",
