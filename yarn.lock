@@ -1849,9 +1849,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/content@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "@nuxt/content@npm:2.7.1"
+"@nuxt/content@npm:^2.7.2":
+  version: 2.7.2
+  resolution: "@nuxt/content@npm:2.7.2"
   dependencies:
     "@nuxt/kit": ^3.6.3
     consola: ^3.2.3
@@ -1889,7 +1889,7 @@ __metadata:
     unist-util-visit: ^5.0.0
     unstorage: ^1.8.0
     ws: ^8.13.0
-  checksum: 795e3c75188deb27b91fb6414a28c04ddadf0355e4e36c3b80977475db329cfd7f068879f6b2305dd408b69773990747d2e582b5d921c7793eefe85f8815656a
+  checksum: 492b5ac4922535793615516edda9497805d36f78468c1bc538fbd901f0d5c88823f1153f55bdd0792785b9f1b0532d988945e8ac0fc42e54482ac20cf76f4469
   languageName: node
   linkType: hard
 
@@ -9218,7 +9218,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@nuxt/content": ^2.7.1
+    "@nuxt/content": ^2.7.2
     "@nuxtjs/tailwindcss": ^6.8.0
     "@prettier/plugin-xml": ^3.1.1
     "@sapphire/prettier-config": ^2.0.0
