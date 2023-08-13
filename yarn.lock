@@ -2068,14 +2068,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-xml@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@prettier/plugin-xml@npm:3.1.1"
+"@prettier/plugin-xml@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@prettier/plugin-xml@npm:3.2.0"
   dependencies:
     "@xml-tools/parser": ^1.0.11
   peerDependencies:
     prettier: ^3.0.0
-  checksum: 9449a5aaa62af0fb652142363d4313c3954d7e37ef0227f7788e16d966f4bd3ab6434e3364a9edbf2f044db5b1ddb6d895438837ac92530537bcc5f3d47a9a04
+  checksum: 9345a6bc13007baa504e368e89cab1bc69dbcb622b127ecb5f9faa9e1a6cdf9736a3b8cd5563866dc8ddeb5f9273e59daef8ff13b31c008188ea61e77aa0cddb
   languageName: node
   linkType: hard
 
@@ -8576,26 +8576,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "prettier-plugin-tailwindcss@npm:0.4.1"
+"prettier-plugin-tailwindcss@npm:^0.5.2":
+  version: 0.5.2
+  resolution: "prettier-plugin-tailwindcss@npm:0.5.2"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
     "@shufo/prettier-plugin-blade": "*"
     "@trivago/prettier-plugin-sort-imports": "*"
-    prettier: ^2.2 || ^3.0
+    prettier: ^3.0
     prettier-plugin-astro: "*"
     prettier-plugin-css-order: "*"
     prettier-plugin-import-sort: "*"
     prettier-plugin-jsdoc: "*"
-    prettier-plugin-marko: "*"
     prettier-plugin-organize-attributes: "*"
     prettier-plugin-organize-imports: "*"
     prettier-plugin-style-order: "*"
     prettier-plugin-svelte: "*"
-    prettier-plugin-twig-melody: "*"
   peerDependenciesMeta:
     "@ianvs/prettier-plugin-sort-imports":
       optional: true
@@ -8627,7 +8625,7 @@ __metadata:
       optional: true
     prettier-plugin-twig-melody:
       optional: true
-  checksum: 9bdf3b7c270cc544f6bc38bbb869d3a97afc93de5005eee7272a36f374488731349c9362d2bbe4c83bd2a14b8a7c96cd25b9b682d1bea6dccc5bf08b2d02096c
+  checksum: 2ad02b96e31dfccb2a2717aa5fb6b2e43313d40a86e227464a0051b8fc7db18cfdb17a50a6739da2392fa56f4679356adc4a24ad36a8f47d0170ea3fad4dd442
   languageName: node
   linkType: hard
 
@@ -9220,13 +9218,13 @@ __metadata:
   dependencies:
     "@nuxt/content": ^2.7.2
     "@nuxtjs/tailwindcss": ^6.8.0
-    "@prettier/plugin-xml": ^3.1.1
+    "@prettier/plugin-xml": ^3.2.0
     "@sapphire/prettier-config": ^2.0.0
     "@tailwindcss/typography": ^0.5.9
     "@vite-pwa/nuxt": ^0.1.0
     nuxt: ^3.6.5
     prettier: ^3.0.1
-    prettier-plugin-tailwindcss: ^0.4.1
+    prettier-plugin-tailwindcss: ^0.5.2
     sitemap: ^7.1.1
     typescript: ^5.1.6
     vite-plugin-pwa: ^0.16.4
