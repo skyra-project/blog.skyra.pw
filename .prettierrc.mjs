@@ -6,7 +6,7 @@ export default {
 		{
 			files: '*.svg',
 			options: {
-				parser: 'xml'
+				parser: 'html'
 			}
 		},
 		{
