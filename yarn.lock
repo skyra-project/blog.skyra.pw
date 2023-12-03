@@ -3158,15 +3158,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vite-pwa/nuxt@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "@vite-pwa/nuxt@npm:0.3.1"
+"@vite-pwa/nuxt@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "@vite-pwa/nuxt@npm:0.3.3"
   dependencies:
     "@nuxt/kit": "npm:^3.8.2"
     pathe: "npm:^1.1.1"
     ufo: "npm:^1.3.2"
     vite-plugin-pwa: "npm:>=0.16.7 <1"
-  checksum: 71d62268f7eee9a212d31e6c7f8c567cacccc32b11ccb63578f11d1a51eca0c8bcfd8db86e4ebea4dc48a6bc1990111e24bf22c6d343e73c6bccedc9259adf29
+  checksum: 62e2900bc5f0dde4b3dfcbfa0a0898726429dd0732d4fea2b6c099089294f7457abd7c0359837f4fbf0e7933373eea85b7c3884663dccb154ed4d5282e7a39c6
   languageName: node
   linkType: hard
 
@@ -10612,7 +10612,7 @@ __metadata:
     "@nuxtjs/tailwindcss": "npm:^6.10.1"
     "@sapphire/prettier-config": "npm:^2.0.0"
     "@tailwindcss/typography": "npm:^0.5.10"
-    "@vite-pwa/nuxt": "npm:^0.3.1"
+    "@vite-pwa/nuxt": "npm:^0.3.3"
     nuxt: "npm:^3.8.2"
     prettier: "npm:^3.1.0"
     prettier-plugin-tailwindcss: "npm:^0.5.7"
