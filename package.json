@@ -14,9 +14,9 @@
 		"@sapphire/prettier-config": "^2.0.0",
 		"@tailwindcss/typography": "^0.5.10",
 		"@vite-pwa/nuxt": "^0.4.0",
-		"nuxt": "^3.9.0",
+		"nuxt": "^3.9.1",
 		"prettier": "^3.1.1",
-		"prettier-plugin-tailwindcss": "^0.5.10",
+		"prettier-plugin-tailwindcss": "^0.5.11",
 		"sitemap": "^7.1.1",
 		"typescript": "^5.3.3",
 		"vite-plugin-pwa": "^0.17.4"
