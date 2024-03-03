@@ -10212,7 +10212,7 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:^0.5.11"
     sitemap: "npm:^7.1.1"
     typescript: "npm:^5.3.3"
-    vite-plugin-pwa: "npm:^0.19.0"
+    vite-plugin-pwa: "npm:^0.19.2"
   languageName: unknown
   linkType: soft
 
@@ -11901,9 +11901,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-pwa@npm:>=0.18.1 <1, vite-plugin-pwa@npm:^0.19.0":
-  version: 0.19.0
-  resolution: "vite-plugin-pwa@npm:0.19.0"
+"vite-plugin-pwa@npm:>=0.18.1 <1, vite-plugin-pwa@npm:^0.19.2":
+  version: 0.19.2
+  resolution: "vite-plugin-pwa@npm:0.19.2"
   dependencies:
     debug: "npm:^4.3.4"
     fast-glob: "npm:^3.3.2"
@@ -11918,7 +11918,7 @@ __metadata:
   peerDependenciesMeta:
     "@vite-pwa/assets-generator":
       optional: true
-  checksum: 10/32fa45621959924ac3122d55c6774f9f2937538c15452d07794b1d4720442d8fecf931798ba51ec1469d0a3c6bc26050d9800610fae098feb458032ec45d1713
+  checksum: 10/9da2d752855774e67e9fc75c01240805c8cebf63e411cfcdfcc02c1d1dbde62e8b8f0dc6ac56290a4e76ca2558977ae048cd77ebfa3d831b928cba5ad064fdc0
   languageName: node
   linkType: hard
 
