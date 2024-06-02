@@ -2979,9 +2979,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vite-pwa/nuxt@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "@vite-pwa/nuxt@npm:0.7.0"
+"@vite-pwa/nuxt@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@vite-pwa/nuxt@npm:0.8.0"
   dependencies:
     "@nuxt/kit": "npm:^3.9.0"
     pathe: "npm:^1.1.1"
@@ -2992,7 +2992,7 @@ __metadata:
   peerDependenciesMeta:
     "@vite-pwa/assets-generator":
       optional: true
-  checksum: 10/32ccc039832a75d3b42c544dfb2bf923115f2f1ba9b5116aba54108535b70c5640682d6a2a439549d7039273f9d970e452395cdb9ad047cf330b7ffc8dcd1161
+  checksum: 10/43124975aa092e9ddace3b307f34b471280faeef42c2faa297e1c6bcb108e86955cd29988f25dac062dc4488f6c03416bd1dd24080ed9f4f577f59c3c61cbe72
   languageName: node
   linkType: hard
 
@@ -9399,9 +9399,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.5.14":
-  version: 0.5.14
-  resolution: "prettier-plugin-tailwindcss@npm:0.5.14"
+"prettier-plugin-tailwindcss@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "prettier-plugin-tailwindcss@npm:0.6.1"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
@@ -9450,16 +9450,16 @@ __metadata:
       optional: true
     prettier-plugin-svelte:
       optional: true
-  checksum: 10/8cb1e9d914012bfe42b23ba8d31fb3fe17abbbb18ad8ba33e6b81c05a92f7e1dd46836179cde7cf036a628081c9e4bbdf971b17f45844a139781e807b81229a9
+  checksum: 10/6a576c51a5a661562a6a8f68995d53407d94acb7403a658c6bab366ca1debf0aa68f0c179ccb62059ba44aa0cf0e8d0f82b5f4a700d77196ad433ca9f29ebe5a
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.0.0, prettier@npm:^3.2.5":
-  version: 3.2.5
-  resolution: "prettier@npm:3.2.5"
+"prettier@npm:^3.0.0, prettier@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "prettier@npm:3.3.0"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10/d509f9da0b70e8cacc561a1911c0d99ec75117faed27b95cc8534cb2349667dee6351b0ca83fa9d5703f14127faa52b798de40f5705f02d843da133fc3aa416a
+  checksum: 10/e55233f8e4b5f96f52180dbfa424ae797a98a9b8a9a7a79de5004e522c02b423e71927ed99d855dbfcd00dc3b82e5f6fb304cfe117cc4e7c8477d883df2d8984
   languageName: node
   linkType: hard
 
@@ -10117,10 +10117,10 @@ __metadata:
     "@nuxtjs/tailwindcss": "npm:^6.12.0"
     "@sapphire/prettier-config": "npm:^2.0.0"
     "@tailwindcss/typography": "npm:^0.5.13"
-    "@vite-pwa/nuxt": "npm:^0.7.0"
+    "@vite-pwa/nuxt": "npm:^0.8.0"
     nuxt: "npm:^3.11.2"
-    prettier: "npm:^3.2.5"
-    prettier-plugin-tailwindcss: "npm:^0.5.14"
+    prettier: "npm:^3.3.0"
+    prettier-plugin-tailwindcss: "npm:^0.6.1"
     sitemap: "npm:^8.0.0"
     typescript: "npm:^5.4.5"
     vite-plugin-pwa: "npm:^0.20.0"
