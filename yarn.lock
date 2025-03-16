@@ -1874,7 +1874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/devtools-kit@npm:2.2.1, @nuxt/devtools-kit@npm:^2.2.1":
+"@nuxt/devtools-kit@npm:2.2.1":
   version: 2.2.1
   resolution: "@nuxt/devtools-kit@npm:2.2.1"
   dependencies:
@@ -1884,6 +1884,19 @@ __metadata:
   peerDependencies:
     vite: ">=6.0"
   checksum: 10/bf80f309ae48ff61e190914a280a30032282944ecf2dced6c875fea62ab69e4180f0931618325be858a7cdc5fad50289f653ef94ad2dd8ec670f7481f48bbacc
+  languageName: node
+  linkType: hard
+
+"@nuxt/devtools-kit@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@nuxt/devtools-kit@npm:2.3.0"
+  dependencies:
+    "@nuxt/kit": "npm:^3.16.0"
+    "@nuxt/schema": "npm:^3.16.0"
+    execa: "npm:^9.5.2"
+  peerDependencies:
+    vite: ">=6.0"
+  checksum: 10/720e0e6b4b3f16cc958e825c2ba91ed0d0eebe16f8d04065050519ecb31000440869a8166467dcea384f412b0d763514f02239d5aab9a2bd9a4b0ca0b5c043de
   languageName: node
   linkType: hard
 
@@ -1979,7 +1992,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/schema@npm:3.16.0, @nuxt/schema@npm:^3.15.4":
+"@nuxt/schema@npm:3.16.0, @nuxt/schema@npm:^3.15.4, @nuxt/schema@npm:^3.16.0":
   version: 3.16.0
   resolution: "@nuxt/schema@npm:3.16.0"
   dependencies:
@@ -2105,16 +2118,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/sitemap@npm:^7.2.7":
-  version: 7.2.7
-  resolution: "@nuxtjs/sitemap@npm:7.2.7"
+"@nuxtjs/sitemap@npm:^7.2.9":
+  version: 7.2.9
+  resolution: "@nuxtjs/sitemap@npm:7.2.9"
   dependencies:
-    "@nuxt/devtools-kit": "npm:^2.2.1"
+    "@nuxt/devtools-kit": "npm:^2.3.0"
     "@nuxt/kit": "npm:^3.16.0"
     chalk: "npm:^5.4.1"
     defu: "npm:^6.1.4"
     h3-compression: "npm:^0.3.2"
-    nuxt-site-config: "npm:^3.1.4"
+    nuxt-site-config: "npm:^3.1.5"
     ofetch: "npm:^1.4.1"
     pathe: "npm:^2.0.3"
     pkg-types: "npm:^2.1.0"
@@ -2122,29 +2135,28 @@ __metadata:
     semver: "npm:^7.7.1"
     sirv: "npm:^3.0.1"
     ufo: "npm:^1.5.4"
-  checksum: 10/a10d256a92ca90e1ef9be0d05bd6be3c49c869076cc2b9c589aeef76d725cb7799d65024331e0e21a8ff6f6aec2502dd8fefa23635ef24ccba30333afd80faf6
+  checksum: 10/f6a49a3670eded89251460b14606338dcdcaf4ef25ae97b36ac8eef2959c93eeb5c3a3a7213d8f2c1f7cee8fbc4703a239ad7a725f3c451821fedac6178c1acf
   languageName: node
   linkType: hard
 
-"@nuxtjs/tailwindcss@npm:^6.13.1":
-  version: 6.13.1
-  resolution: "@nuxtjs/tailwindcss@npm:6.13.1"
+"@nuxtjs/tailwindcss@npm:^6.13.2":
+  version: 6.13.2
+  resolution: "@nuxtjs/tailwindcss@npm:6.13.2"
   dependencies:
-    "@nuxt/kit": "npm:^3.15.1"
     autoprefixer: "npm:^10.4.20"
-    c12: "npm:^2.0.1"
-    consola: "npm:^3.3.3"
+    c12: "npm:^3.0.2"
+    consola: "npm:^3.4.0"
     defu: "npm:^6.1.4"
-    h3: "npm:^1.13.1"
+    h3: "npm:^1.15.1"
     klona: "npm:^2.0.6"
-    pathe: "npm:^2.0.1"
-    postcss: "npm:^8.4.49"
+    pathe: "npm:^2.0.3"
+    postcss: "npm:^8.5.3"
     postcss-nesting: "npm:^13.0.1"
     tailwind-config-viewer: "npm:^2.0.4"
     tailwindcss: "npm:~3.4.17"
     ufo: "npm:^1.5.4"
     unctx: "npm:^2.4.1"
-  checksum: 10/48df4b54ea439932b6b7b1993d7457937a5ab800956a704a71ae58d763975e85087b3583f70a62b208fed34bf0892e9498184f55c55a6d23ac0b7334c0e67cf2
+  checksum: 10/9ab1eebd5b4a9f64b0dfe1729a6282b7b120a29637bd491c1d2fedf4c72446f3b88b33c996a9c3039e0d7ccc5b4a42c49a94fc91b4f2a56fd3c737f37c11bd61
   languageName: node
   linkType: hard
 
@@ -3951,7 +3963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"c12@npm:^2.0.1, c12@npm:^2.0.4":
+"c12@npm:^2.0.4":
   version: 2.0.4
   resolution: "c12@npm:2.0.4"
   dependencies:
@@ -4376,7 +4388,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:^3.2.3, consola@npm:^3.3.3, consola@npm:^3.4.0":
+"consola@npm:^3.2.3, consola@npm:^3.4.0":
   version: 3.4.0
   resolution: "consola@npm:3.4.0"
   checksum: 10/99d4a8131f4cc42ff6bb8e4fd8c9dbd428d6b949f3ec25d9d24892a7b0603b0aabeee8213e13ad74439b5078fdb204f9377bcdd401949c33fff672d91f05c4ec
@@ -5979,7 +5991,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^1.12.0, h3@npm:^1.13.1, h3@npm:^1.15.0, h3@npm:^1.15.1":
+"h3@npm:^1.12.0, h3@npm:^1.15.0, h3@npm:^1.15.1":
   version: 1.15.1
   resolution: "h3@npm:1.15.1"
   dependencies:
@@ -8671,31 +8683,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-site-config-kit@npm:3.1.4":
-  version: 3.1.4
-  resolution: "nuxt-site-config-kit@npm:3.1.4"
+"nuxt-site-config-kit@npm:3.1.5":
+  version: 3.1.5
+  resolution: "nuxt-site-config-kit@npm:3.1.5"
   dependencies:
     "@nuxt/kit": "npm:^3.16.0"
     pkg-types: "npm:^2.1.0"
-    site-config-stack: "npm:3.1.4"
+    site-config-stack: "npm:3.1.5"
     std-env: "npm:^3.8.1"
     ufo: "npm:^1.5.4"
-  checksum: 10/4956eeef6b319bfeff52af0b7d4ab3f9b3f49043fb17ad029b47ca574f5b39534e7ed1f6d9fcc2bbc7dc49743a33ced241a80699966027c597ad3b6f7547d8b9
+  checksum: 10/82d11d22a644ed767766f55a1e852283ab71ce5fc426bf3304d7d186b9d0884ece76c8c6a909080f3331ce07b5779c14f64e27fdfe7eeeebee51f1d75953f947
   languageName: node
   linkType: hard
 
-"nuxt-site-config@npm:^3.1.4":
-  version: 3.1.4
-  resolution: "nuxt-site-config@npm:3.1.4"
+"nuxt-site-config@npm:^3.1.5":
+  version: 3.1.5
+  resolution: "nuxt-site-config@npm:3.1.5"
   dependencies:
     "@nuxt/kit": "npm:^3.16.0"
-    nuxt-site-config-kit: "npm:3.1.4"
+    nuxt-site-config-kit: "npm:3.1.5"
     pathe: "npm:^2.0.3"
     pkg-types: "npm:^2.1.0"
     sirv: "npm:^3.0.1"
-    site-config-stack: "npm:3.1.4"
+    site-config-stack: "npm:3.1.5"
     ufo: "npm:^1.5.4"
-  checksum: 10/bd054ab4ff777137b73145239602d3d0a5821e86c072d3df0b7c54e274f1ef425cf15930691c530df41ec04849258600279187fb1320ee93da6184d9b4a8da0c
+  checksum: 10/57135bda85a95831c4204f0b63230d398b8f5a8dffc2b80f891b76e253867f64eac4f5104907715035c8aa938b0d820cb3dba97e1836b1c42431754c02a5ec9d
   languageName: node
   linkType: hard
 
@@ -9689,7 +9701,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.47, postcss@npm:^8.4.48, postcss@npm:^8.4.49, postcss@npm:^8.5.3":
+"postcss@npm:^8.4.47, postcss@npm:^8.4.48, postcss@npm:^8.5.3":
   version: 8.5.3
   resolution: "postcss@npm:8.5.3"
   dependencies:
@@ -10538,8 +10550,8 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@nuxt/content": "npm:^3.3.0"
-    "@nuxtjs/sitemap": "npm:^7.2.7"
-    "@nuxtjs/tailwindcss": "npm:^6.13.1"
+    "@nuxtjs/sitemap": "npm:^7.2.9"
+    "@nuxtjs/tailwindcss": "npm:^6.13.2"
     "@sapphire/prettier-config": "npm:^2.0.0"
     "@tailwindcss/typography": "npm:^0.5.16"
     "@vite-pwa/nuxt": "npm:^0.10.6"
@@ -10807,14 +10819,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"site-config-stack@npm:3.1.4":
-  version: 3.1.4
-  resolution: "site-config-stack@npm:3.1.4"
+"site-config-stack@npm:3.1.5":
+  version: 3.1.5
+  resolution: "site-config-stack@npm:3.1.5"
   dependencies:
     ufo: "npm:^1.5.4"
   peerDependencies:
     vue: ^3
-  checksum: 10/c3923a528833ee1e6d1c0b19409b5d66e45d769f5ac07210f543241207194590418fafed30115b122e81fa9a063db8179223cb8505c3cb97f849430b38753fd9
+  checksum: 10/ce39f3949c8f55a1dda3d7b1098ebf42eab7400cecfc8f825d07040ab2c3f46ea27f0c49596e4d54bcfcce6c31db4a5a620be7f5f2e9cd01aa217d5e084ba690
   languageName: node
   linkType: hard
 
