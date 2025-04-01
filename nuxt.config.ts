@@ -57,6 +57,7 @@ const manifestIcons = [
 ];
 
 export default defineNuxtConfig({
+	site: { url: 'blog.skyra.pw' },
 	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt'],
 	pwa: {
 		registerType: 'autoUpdate',
