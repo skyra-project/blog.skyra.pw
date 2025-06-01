@@ -3280,9 +3280,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vite-pwa/nuxt@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@vite-pwa/nuxt@npm:1.0.1"
+"@vite-pwa/nuxt@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@vite-pwa/nuxt@npm:1.0.3"
   dependencies:
     "@nuxt/kit": "npm:^3.9.0"
     pathe: "npm:^1.1.1"
@@ -3293,7 +3293,7 @@ __metadata:
   peerDependenciesMeta:
     "@vite-pwa/assets-generator":
       optional: true
-  checksum: 10/5cbe5fe4e4a6afeb246c28a36b90a820f5dd60aa6810f9161a52b73cf8df5bb8cd06c3b95a6c9ce6b2a2ff6b34a53c528f277dd604c298cdfe176d99b4f7f4f4
+  checksum: 10/64a7de221ab63318d6c8c52979d1345d6a2a03d9261060a3cd88fdd7ee4086fd6b6acb5dd7f9f20f2c47e027e73c284b3bfb71faa864d64dd00f5a7fe5268c65
   languageName: node
   linkType: hard
 
@@ -10536,9 +10536,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.6.11":
-  version: 0.6.11
-  resolution: "prettier-plugin-tailwindcss@npm:0.6.11"
+"prettier-plugin-tailwindcss@npm:^0.6.12":
+  version: 0.6.12
+  resolution: "prettier-plugin-tailwindcss@npm:0.6.12"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
@@ -10590,7 +10590,7 @@ __metadata:
       optional: true
     prettier-plugin-svelte:
       optional: true
-  checksum: 10/7c87d8b9c7fc6e8bd3722da5c0bd115cfc249baba339b28b56ed270f0bcb99e0196836cd7270c8ab6bc499186f41e2bac4adff7795cd523d8f63f43424a0a36d
+  checksum: 10/6ad2fe0d69276663b56000083c63fb126ee7a5993abc52e2146c994c776dc06fd437865c723146b2c1cad3b5dbd537b063d179143ff65a39a13ff3d8df6ace8b
   languageName: node
   linkType: hard
 
@@ -11430,10 +11430,10 @@ __metadata:
     "@nuxtjs/tailwindcss": "npm:^6.14.0"
     "@sapphire/prettier-config": "npm:^2.0.0"
     "@tailwindcss/typography": "npm:^0.5.16"
-    "@vite-pwa/nuxt": "npm:^1.0.1"
+    "@vite-pwa/nuxt": "npm:^1.0.3"
     nuxt: "npm:^3.17.4"
     prettier: "npm:^3.5.3"
-    prettier-plugin-tailwindcss: "npm:^0.6.11"
+    prettier-plugin-tailwindcss: "npm:^0.6.12"
     typescript: "npm:^5.8.2"
     vite-plugin-pwa: "npm:^1.0.0"
   languageName: unknown
